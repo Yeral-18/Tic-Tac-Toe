@@ -47,8 +47,6 @@ function checkWin(player) {
 }
 
 
-
-
 box.forEach((boxs, index) => {
 
   boxs.addEventListener('mouseover', function() {
