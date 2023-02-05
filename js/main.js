@@ -94,7 +94,7 @@ box.forEach((boxs, index) => {
 });
 
 buttonNext.addEventListener('click', function() {
-  let audioNext = new Audio("/audio/next.mp3");
+  let audioNext = new Audio("./audio/next.mp3");
   audioNext.play();
   board.fill(null);
   gameOver = false;
@@ -105,7 +105,7 @@ buttonNext.addEventListener('click', function() {
 });
 
 buttonReset.addEventListener('click', function(){
-  let audioResetGame = new Audio("/audio/reset.mp3");
+  let audioResetGame = new Audio("./audio/reset.mp3");
   audioResetGame.play();
   board.fill(null);
   gameOver = false;
