@@ -1,4 +1,4 @@
-const box = document.querySelectorAll(".cajas");
+const box = document.querySelectorAll(".box");
 const win = document.querySelector("#player-win");
 const winsX = document.querySelector("#wins-X");
 const winsO = document.querySelector("#wins-O");

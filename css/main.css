@@ -47,7 +47,7 @@ body{
     /* transition: ; */
 }
 
-.cajas{
+.box{
     font-family: 'Permanent Marker', cursive;
     width: 130px;
     height: 130px;
@@ -62,7 +62,7 @@ body{
     
 }
 
-.cajas:hover{
+.box:hover{
     cursor: pointer;
     font-family: 'Permanent Marker', cursive;
 }
