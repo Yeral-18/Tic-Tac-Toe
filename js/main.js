@@ -67,7 +67,7 @@ box.forEach((boxs, index) => {
   });
 
   boxs.addEventListener('click', function() {
-    let audioClick = new Audio("/audio/click.mp3")
+    let audioClick = new Audio("./audio/click.mp3")
     audioClick.play();
     if (!board[index] && !gameOver) {
       this.innerHTML = currentPlayer;
